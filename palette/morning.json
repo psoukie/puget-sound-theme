@@ -1,0 +1,15 @@
+{
+  "name": "Puget Sound Morning",
+  "colors": {
+    "red": { "name": "Madrona", "hex": "#AA534E" },
+    "orange": { "name": "Copper", "hex": "#AA7223" },
+    "yellow": { "name": "Sand", "hex": "#B7A36F" },
+    "green": { "name": "Fern", "hex": "#708F6D" },
+    "blue": { "name": "Sound", "hex": "#5278A7" },
+    "teal": { "name": "Tidepool", "hex": "#5592A1" },
+    "purple": { "name": "Lavender", "hex": "#7E76A6" }
+  },
+  "shore": { "0": "#F9FCFF", "1": "#E0EAEF", "2": "#B9C9D0" },
+  "driftwood": { "primary": "#3E515E", "secondary": "#5A6C74", "tertiary": "#6A7B84" },
+  "horizon": { "0": "#375378", "1": "#7298CA", "2": "#C8DDFC", "3": "#E4EFFF" }
+}

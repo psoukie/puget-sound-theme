@@ -1,0 +1,15 @@
+{
+  "name": "Puget Sound Evening",
+  "colors": {
+    "red": { "name": "Madrona", "hex": "#E98C84" },
+    "orange": { "name": "Copper", "hex": "#D79C52" },
+    "yellow": { "name": "Sand", "hex": "#D1BD88" },
+    "green": { "name": "Fern", "hex": "#90B18E" },
+    "blue": { "name": "Sound", "hex": "#8BB2E4" },
+    "teal": { "name": "Tidepool", "hex": "#72B1BF" },
+    "purple": { "name": "Lavender", "hex": "#AAA3D6" }
+  },
+  "shore": { "0": "#18242F", "1": "#2A3A46", "2": "#4E5C68" },
+  "driftwood": { "primary": "#C1CCD3", "secondary": "#9FADB3", "tertiary": "#87959C" },
+  "horizon": { "0": "#B2BFDB", "1": "#8194BA", "2": "#496594", "3": "#31466C" }
+}

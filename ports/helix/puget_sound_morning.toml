@@ -1,0 +1,210 @@
+# Puget Sound Morning Helix Theme
+
+# INTERFACE
+"ui.background" = { bg = "bg-0" }
+"ui.background.separator" = { fg = "blue-1" }
+"ui.window" = { fg = "blue-2" }
+"ui.gutter" = { fg = "bg-2", bg = "bg-0" }
+"ui.gutter.selected" = { bg = "bg-1" }
+
+"ui.popup" = { bg = "blue-3", fg = "fg-primary" }
+"ui.popup.info" = { bg = "blue-3", fg = "blue-1" }
+
+"ui.text" = { fg = "fg-primary" }
+"ui.text.directory" = { fg = "blue-1" }
+"ui.text.focus" = { bg = "blue-3" }
+"ui.text.info" = { fg = "blue" }
+"ui.text.inactive" = { fg = "fg-secondary" }
+
+"ui.cursor" = { bg = "blue", fg = "bg-0" }
+"ui.cursor.normal" = { bg = "blue-1", fg = "bg-0" }
+"ui.cursor.insert" = { bg = "teal", fg = "bg-0" }
+"ui.cursor.select" = { bg = "purple", fg = "bg-0" }
+"ui.cursor.primary" = { bg = "blue-0", fg = "bg-0" }
+"ui.cursor.primary.normal" = { bg = "blue-0", fg = "bg-0" }
+"ui.cursor.primary.insert" = { bg = "green", fg = "bg-0" }
+"ui.cursor.primary.select" = { bg = "blue", fg = "bg-0" }
+"ui.cursor.match" = { bg = "blue-2", modifiers = ["bold"] }
+
+"ui.selection" = { bg = "blue-3" }
+"ui.selection.primary" = { bg = "blue-2" }
+"ui.cursorline.primary" = { bg = "bg-1" }
+"ui.cursorline.secondary" = { }
+"ui.cursorcolumn.primary" = { }
+"ui.cursorcolumn.secondary" = { }
+
+"ui.linenr" = { fg = "bg-2", modifiers = ["dim"] }
+"ui.linenr.selected" = { fg = "blue" }
+
+"ui.virtual.ruler" = { bg = "bg-1" }
+"ui.virtual.whitespace" = { fg = "bg-2" }
+"ui.virtual.indent-guide" = { fg = "bg-2" }
+"ui.virtual.inlay-hint" = { fg = "fg-secondary", bg = "bg-1" }
+"ui.virtual.inlay-hint.parameter" = { fg = "fg-secondary" }
+"ui.virtual.inlay-hint.type" = { fg = "fg-secondary" }
+"ui.virtual.jump-label" = { fg = "red" }
+"ui.virtual.wrap" = { fg = "bg-2" }
+
+"ui.statusline" = { fg = "bg-0", bg = "blue-1" }
+"ui.statusline.inactive" = { fg = "bg-1", bg = "fg-secondary" }
+"ui.statusline.normal" = { bg = "blue", fg = "bg-0" }
+"ui.statusline.insert" = { bg = "green", fg = "bg-0" }
+"ui.statusline.select" = { bg = "purple", fg = "bg-0" }
+"ui.statusline.separator" = { fg = "blue-2" }
+
+"ui.bufferline" = { fg = "fg-tertiary", bg = "bg-1" }
+"ui.bufferline.active" = { fg = "blue", bg = "bg-1" }
+"ui.bufferline.background" = { bg = "bg-1" }
+
+"ui.help" = { bg = "bg-0", fg = "blue-1" }
+
+"ui.menu" = { bg = "blue-3", fg = "blue" }
+"ui.menu.selected" = { bg = "blue-2", fg = "blue-0" }
+"ui.menu.scroll" = { fg = "bg-2" }
+"ui.highlight" = { underline = { color = "blue", style = "line" } }
+"ui.highlight.frameline" = {}
+
+"ui.picker.header" = { fg = "blue-1" }
+"ui.picker.header.column" = { fg = "blue-1" }
+"ui.picker.header.column.active" = { fg = "blue" }
+
+# MARKUP
+"markup.heading" = { fg = "blue-0" }
+"markup.heading.1" = { fg = "blue-0" }
+"markup.heading.2" = { fg = "blue-0", modifiers = ["dim"] }
+"markup.heading.3" = { fg = "fg-primary", modifiers = ["bold"] }
+"markup.heading.4" = { fg = "fg-primary", modifiers = ["bold"] }
+"markup.heading.5" = { fg = "fg-secondary", modifiers = ["bold"] }
+"markup.heading.6" = { fg = "fg-secondary" }
+"markup.heading.marker" = { fg = "fg-secondary" }
+"markup.list" = { fg = "fg-secondary" }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.strikethrough" = { fg = "fg-primary", modifiers = ["crossed_out"] }
+"markup.link" = { fg = "blue" }
+"markup.link.url" = { fg = "blue", underline = { color = "blue", style = "line" } }
+"markup.link.label" = { fg = "teal" }
+"markup.link.text" = { fg = "fg-primary" }
+"markup.quote" = { fg = "fg-secondary", modifiers = ["italic"] }
+"markup.raw" = { fg = "fg-primary" }
+"markup.raw.block" = { fg = "fg-primary", bg = "bg-1" }
+"markup.raw.inline" = { fg = "fg-primary", bg = "bg-1" }
+
+# DIAGNOSTICS
+# Soft yellow/green/orange are kept in the palette, but diagnostics use
+# readable text-grade variants.
+"warning" = { fg = "orange", bg = "bg-0" }
+"error" = { fg = "red", bg = "bg-0" }
+"info" = { fg = "blue", bg = "bg-0" }
+"hint" = { fg = "green", bg = "bg-0" }
+
+"diagnostic" = { modifiers = ["reversed"] }
+"diagnostic.warning" = { underline = { color = "yellow", style = "curl" } }
+"diagnostic.error" = { underline = { color = "red", style = "curl" } }
+"diagnostic.info" = { underline = { color = "blue", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "green", style = "curl" } }
+"diagnostic.unnecessary" = { fg = "fg-primary", modifiers = ["italic"] }
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+
+# SYNTAX HIGHLIGHTING
+"special" = { fg = "purple", modifiers = ["italic"] }
+"attribute" = { fg = "purple", modifiers = ["italic"] }
+
+"type" = { fg = "teal" }
+"type.builtin" = { fg = "teal" }
+"type.parameter" = { fg = "teal" }
+"type.enum" = { fg = "teal" }
+"type.enum.variant" = { fg = "teal" }
+
+"constructor" = { fg = "teal" }
+
+"constant" = { fg = "teal" }
+"constant.builtin" = { fg = "teal" }
+"constant.builtin.boolean" = { fg = "teal" }
+"constant.character" = { fg = "teal" }
+"constant.character.escape" = { fg = "teal" }
+"constant.numeric" = { fg = "green" }
+
+"string" = { fg = "green" }
+"string.regexp" = { fg = "yellow" }
+"string.special" = { fg = "orange" }
+"string.special.url" = { fg = "blue", underline = { color = "blue", style = "line" } }
+
+"comment" = { fg = "fg-tertiary", modifiers = ["italic", "dim"] }
+"comment.block.documentation" = { fg = "fg-tertiary", modifiers = ["dim"] }
+"comment.line.documentation" = { fg = "fg-tertiary", modifiers = ["italic", "dim"] }
+
+"variable" = { fg = "fg-primary" }
+"variable.builtin" = { fg = "fg-primary" }
+"variable.parameter" = { fg = "fg-primary" }
+"variable.other" = { fg = "fg-primary" }
+"variable.other.member" = { fg = "fg-primary" }
+
+"label" = { fg = "purple", modifiers = ["italic"] }
+
+"punctuation" = { fg = "fg-secondary" }
+"punctuation.delimiter" = { fg = "fg-secondary" }
+"punctuation.bracket" = { fg = "fg-secondary" }
+"punctuation.special" = { fg = "fg-secondary" }
+
+"keyword" = { fg = "purple" }
+"keyword.control" = { fg = "purple" }
+"keyword.control.conditional" = { fg = "purple" }
+"keyword.control.repeat" = { fg = "purple" }
+"keyword.control.import" = { fg = "purple" }
+"keyword.control.return" = { fg = "purple" }
+"keyword.control.exception" = { fg = "purple" }
+"keyword.operator" = { fg = "purple" }
+"keyword.directive" = { fg = "purple", modifiers = ["italic"]}
+"keyword.function" = { fg = "purple" }
+"keyword.storage" = { fg = "purple" }
+"keyword.storage.type" = { fg = "purple" }
+"keyword.storage.modifier" = { fg = "purple" }
+
+"operator" = { fg = "fg-primary" }
+
+"function" = { fg = "blue" }
+"function.builtin" = { fg = "blue" }
+"function.macro" = { fg = "orange" }
+"function.method" = { fg = "blue" }
+"function.special" = { fg = "blue" }
+
+"tag" = { fg = "purple" }
+
+"namespace" = { fg = "teal" }
+
+# DIFF
+"diff.plus" = "green"
+"diff.minus" = "red"
+"diff.delta" = "yellow"
+"diff.delta.moved" = "blue"
+
+# PALETTE
+[palette]
+# Foreground scale: darkest to lighter, all readable on the main background.
+"fg-primary" = "#3E515E"
+"fg-secondary" = "#5A6C74"
+"fg-tertiary" = "#6A7B84"
+
+# Background scale: bg-0 is the primary editor surface; bg-2 is the strongest
+# neutral background/stroke.
+"bg-0" = "#F9FCFF"
+"bg-1" = "#E0EAEF"
+"bg-2" = "#B9C9D0"
+
+# Conventional semantic hues. The base hues are retained for soft UI accents and
+# mode/status backgrounds; text-grade variants are used for syntax foregrounds.
+"red" = "#AA534E"
+"orange" = "#AA7223"
+"yellow" = "#B7A36F"
+"green" = "#708F6D"
+"blue" = "#5278A7"
+"teal" = "#5592A1"
+"purple" = "#7E76A6"
+
+# Extra blue scale for light-theme UI surfaces/highlighting only. Do not use
+# blue-1/blue-2/blue-3 as syntax foregrounds.
+"blue-0" = "#375378"
+"blue-1" = "#7298CA"
+"blue-2" = "#C8DDFC"
+"blue-3" = "#E4EFFF"

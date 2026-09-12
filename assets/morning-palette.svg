@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1008" height="420" viewBox="0 0 1008 420" role="img" aria-labelledby="title desc">
+<title id="title">Puget Sound Morning palette</title>
+<desc id="desc">Seven coastal accent colors above the Shore background, Driftwood foreground, and Horizon blue scales. Hex values are listed below each accent.</desc>
+<rect width="1008" height="420" fill="#F9FCFF"/>
+<g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" fill="#3E515E">
+<text x="32" y="48" font-size="26" font-weight="600">Morning</text>
+<text x="32" y="76" font-size="14" fill="#5A6C74">Cool daylight · quiet warmth</text>
+<rect x="32" y="104" width="128" height="112" fill="#AA534E"/>
+<text x="32" y="242" font-size="16" font-weight="600">Madrona</text>
+<text x="32" y="264" font-family="ui-monospace, monospace" font-size="13" fill="#5A6C74">#AA534E</text>
+<rect x="168" y="104" width="128" height="112" fill="#AA7223"/>
+<text x="168" y="242" font-size="16" font-weight="600">Copper</text>
+<text x="168" y="264" font-family="ui-monospace, monospace" font-size="13" fill="#5A6C74">#AA7223</text>
+<rect x="304" y="104" width="128" height="112" fill="#B7A36F"/>
+<text x="304" y="242" font-size="16" font-weight="600">Sand</text>
+<text x="304" y="264" font-family="ui-monospace, monospace" font-size="13" fill="#5A6C74">#B7A36F</text>
+<rect x="440" y="104" width="128" height="112" fill="#708F6D"/>
+<text x="440" y="242" font-size="16" font-weight="600">Fern</text>
+<text x="440" y="264" font-family="ui-monospace, monospace" font-size="13" fill="#5A6C74">#708F6D</text>
+<rect x="576" y="104" width="128" height="112" fill="#5278A7"/>
+<text x="576" y="242" font-size="16" font-weight="600">Sound</text>
+<text x="576" y="264" font-family="ui-monospace, monospace" font-size="13" fill="#5A6C74">#5278A7</text>
+<rect x="712" y="104" width="128" height="112" fill="#5592A1"/>
+<text x="712" y="242" font-size="16" font-weight="600">Tidepool</text>
+<text x="712" y="264" font-family="ui-monospace, monospace" font-size="13" fill="#5A6C74">#5592A1</text>
+<rect x="848" y="104" width="128" height="112" fill="#7E76A6"/>
+<text x="848" y="242" font-size="16" font-weight="600">Lavender</text>
+<text x="848" y="264" font-family="ui-monospace, monospace" font-size="13" fill="#5A6C74">#7E76A6</text>
+<text x="32" y="318" font-size="14" fill="#5A6C74">Shore</text>
+<rect x="32" y="334" width="101.333" height="48" fill="#F9FCFF"/>
+<rect x="133.333" y="334" width="101.333" height="48" fill="#E0EAEF"/>
+<rect x="234.667" y="334" width="101.333" height="48" fill="#B9C9D0"/>
+<text x="352" y="318" font-size="14" fill="#5A6C74">Driftwood</text>
+<rect x="352" y="334" width="101.333" height="48" fill="#3E515E"/>
+<rect x="453.333" y="334" width="101.333" height="48" fill="#5A6C74"/>
+<rect x="554.667" y="334" width="101.333" height="48" fill="#6A7B84"/>
+<text x="672" y="318" font-size="14" fill="#5A6C74">Horizon</text>
+<rect x="672" y="334" width="76" height="48" fill="#375378"/>
+<rect x="748" y="334" width="76" height="48" fill="#7298CA"/>
+<rect x="824" y="334" width="76" height="48" fill="#C8DDFC"/>
+<rect x="900" y="334" width="76" height="48" fill="#E4EFFF"/>
+</g>
+</svg>
