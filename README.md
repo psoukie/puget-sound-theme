@@ -96,5 +96,3 @@ Palette previews are generated from the shared JSON palette with `python3 script
 ## Growing the collection
 
 This is a personal collection, with the three applications I use as its starting point. Additional ports can build on the same named palette and Morning/Evening relationship.
-
-See [the proposed repository structure](docs/repository-structure.md) for an approach to adding applications, shared palette data, previews, and validation without mixing application-specific details into the core colors.

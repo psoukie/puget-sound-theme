@@ -30,7 +30,7 @@ def render(mode):
     ]
 
     def text(x, y, value, size=14, color=fg, weight=400, mono=False, italic=False):
-        font = ' font-family="ui-monospace, monospace"' if mono else ''
+        font = ' font-family="Cascadia Code, Cascadia Mono, SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace"' if mono else ''
         style = ' font-style="italic"' if italic else ''
         parts.append(f'<text x="{x:g}" y="{y:g}" font-size="{size}" '
                      f'font-weight="{weight}" fill="{color}"{font}{style}>{escape(value)}</text>')
