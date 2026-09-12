@@ -9,7 +9,42 @@
     "teal": { "name": "Tidepool", "hex": "#72B1BF" },
     "purple": { "name": "Lavender", "hex": "#AAA3D6" }
   },
-  "background": { "0": "#18242F", "1": "#2A3A46", "2": "#4E5C68" },
-  "foreground": { "0": "#C1CCD3", "1": "#9FADB3", "2": "#87959C" },
-  "core": { "0": "#B2BFDB", "1": "#8194BA", "2": "#496594", "3": "#31466C" }
+  "background": {
+    "bg-0": { "name": "Slate", "hex": "#18242F" },
+    "bg-1": { "name": "Driftwood", "hex": "#2A3A46" },
+    "bg-2": { "name": "Shore", "hex": "#4E5C68" }
+  },
+  "foreground": {
+    "fg-0": { "name": "Shell", "hex": "#C1CCD3" },
+    "fg-1": { "name": "Mist", "hex": "#9FADB3" },
+    "fg-2": { "name": "Pebble", "hex": "#87959C" }
+  },
+  "core": {
+    "blue-0": { "name": "Horizon", "hex": "#B2BFDB" },
+    "blue-1": { "name": "Inlet", "hex": "#8194BA" },
+    "blue-2": { "name": "Deception Pass", "hex": "#496594" },
+    "blue-3": { "name": "Deep Ocean", "hex": "#31466C" }
+  },
+  "terminal": {
+    "ansi": {
+      "black": { "name": "Slate", "hex": "#18242F" },
+      "red": { "name": "Madrona", "hex": "#E98C84" },
+      "green": { "name": "Hemlock", "hex": "#88A46D" },
+      "yellow": { "name": "Sand", "hex": "#D1BD88" },
+      "blue": { "name": "Sound", "hex": "#94BBEE" },
+      "magenta": { "name": "Lavender", "hex": "#ACA5D8" },
+      "cyan": { "name": "Tidepool", "hex": "#6BAAB8" },
+      "white": { "name": "Mist", "hex": "#9FADB3" }
+    },
+    "brights": {
+      "black": { "name": "Driftwood", "hex": "#2A3A46" },
+      "red": { "name": "Madrona", "hex": "#FFB5AD" },
+      "green": { "name": "Hemlock", "hex": "#ADC98D" },
+      "yellow": { "name": "Sand", "hex": "#FDE7B1" },
+      "blue": { "name": "Sound", "hex": "#CFE4FF" },
+      "magenta": { "name": "Lavender", "hex": "#D5D0FF" },
+      "cyan": { "name": "Tidepool", "hex": "#93D4E1" },
+      "white": { "name": "Shell", "hex": "#C1CCD3" }
+    }
+  }
 }

@@ -35,15 +35,13 @@ Four layered blues establish the theme’s character. Their names describe their
 
 | Token | Morning | Morning value | Evening | Evening value |
 | :--- | :--- | :--- | :--- | :--- |
-| `blue-0` | **Deep Water** | `#375378` | **Horizon** | `#B2BFDB` |
+| `blue-0` | **Deep Ocean** | `#375378` | **Horizon** | `#B2BFDB` |
 | `blue-1` | **Deception Pass** | `#7298CA` | **Inlet** | `#8194BA` |
 | `blue-2` | **Inlet** | `#C8DDFC` | **Deception Pass** | `#496594` |
-| `blue-3` | **Horizon** | `#E4EFFF` | **Deep Water** | `#31466C` |
+| `blue-3` | **Horizon** | `#E4EFFF` | **Deep Ocean** | `#31466C` |
 
 ### Foreground
 
-| Color | Role | Morning | Evening |
-| :--- | :--- | :--- | :--- |
 | Token | Morning | Morning value | Evening | Evening value |
 | :--- | :--- | :--- | :--- | :--- |
 | `fg-0` | **Slate** | `#3E515E` | **Shell** | `#C1CCD3` |
@@ -52,15 +50,13 @@ Four layered blues establish the theme’s character. Their names describe their
 
 ### Background
 
-| Color | Token | Morning | Evening |
-| :--- | :--- | :--- | :--- |
 | Token | Morning | Morning value | Evening | Evening value |
 | :--- | :--- | :--- | :--- | :--- |
 | `bg-0` | **Shell** | `#F9FCFF` | **Slate** | `#18242F` |
 | `bg-1` | **Mist** | `#E0EAEF` | **Driftwood** | `#2A3A46` |
 | `bg-2` | **Shore** | `#B9C9D0` | **Shore** | `#4E5C68` |
 
-These descriptors follow the neutral lightness sequence within each variant. They are presentation names only; implementation tokens remain numbered (`fg-0`, `fg-1`, `fg-2`, and `bg-0`, `bg-1`, `bg-2`).
+These descriptors follow the neutral lightness sequence within each variant. Implementation tokens remain explicit (`fg-0`, `fg-1`, `fg-2`, and `bg-0`, `bg-1`, `bg-2`).
 
 ### Semantic colors
 
@@ -95,7 +91,7 @@ Installation and application-specific details live in each [port guide](#applica
 - **Blue comes first.** The core interface scale carries the atmosphere, with its own Evening treatment; semantic colors retain their distinct hues.
 - **Adapt to the application.** Terminal brights and tool-specific surfaces serve their local roles while staying within the palette’s character.
 
-Palette previews are generated from the shared JSON palette with `python3 scripts/render-palettes.py`. The shared JSON uses four role-based groups: `core`, `foreground`, `background`, and `semantic`.
+Palette previews are generated from the shared JSON palette with `python3 scripts/render-palettes.py`. The shared JSON uses role-based groups for `core`, `foreground`, `background`, `semantic`, and terminal ANSI colors; every swatch defines its display `name` and `hex` value.
 
 ## Growing the collection
 
