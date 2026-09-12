@@ -1,43 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1008" height="420" viewBox="0 0 1008 420" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1008" height="760" viewBox="0 0 1008 760" role="img" aria-labelledby="title desc">
 <title id="title">Puget Sound Evening palette</title>
-<desc id="desc">Seven coastal accent colors above the Shore background, Driftwood foreground, and Horizon blue scales. Hex values are listed below each accent.</desc>
-<rect width="1008" height="420" fill="#18242F"/>
+<desc id="desc">Four prominent primary blues, followed by foreground and background neutrals, and seven smaller accent swatches. Each swatch is labeled with its name and hex value.</desc>
+<rect width="1008" height="760" fill="#18242F"/>
 <g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" fill="#C1CCD3">
-<text x="32" y="48" font-size="26" font-weight="600">Evening</text>
-<text x="32" y="76" font-size="14" fill="#9FADB3">Blue-gray dusk · softened accents</text>
-<rect x="32" y="104" width="128" height="112" fill="#E98C84"/>
-<text x="32" y="242" font-size="16" font-weight="600">Madrona</text>
-<text x="32" y="264" font-family="ui-monospace, monospace" font-size="13" fill="#9FADB3">#E98C84</text>
-<rect x="168" y="104" width="128" height="112" fill="#D79C52"/>
-<text x="168" y="242" font-size="16" font-weight="600">Copper</text>
-<text x="168" y="264" font-family="ui-monospace, monospace" font-size="13" fill="#9FADB3">#D79C52</text>
-<rect x="304" y="104" width="128" height="112" fill="#D1BD88"/>
-<text x="304" y="242" font-size="16" font-weight="600">Sand</text>
-<text x="304" y="264" font-family="ui-monospace, monospace" font-size="13" fill="#9FADB3">#D1BD88</text>
-<rect x="440" y="104" width="128" height="112" fill="#90B18E"/>
-<text x="440" y="242" font-size="16" font-weight="600">Fern</text>
-<text x="440" y="264" font-family="ui-monospace, monospace" font-size="13" fill="#9FADB3">#90B18E</text>
-<rect x="576" y="104" width="128" height="112" fill="#8BB2E4"/>
-<text x="576" y="242" font-size="16" font-weight="600">Sound</text>
-<text x="576" y="264" font-family="ui-monospace, monospace" font-size="13" fill="#9FADB3">#8BB2E4</text>
-<rect x="712" y="104" width="128" height="112" fill="#72B1BF"/>
-<text x="712" y="242" font-size="16" font-weight="600">Tidepool</text>
-<text x="712" y="264" font-family="ui-monospace, monospace" font-size="13" fill="#9FADB3">#72B1BF</text>
-<rect x="848" y="104" width="128" height="112" fill="#AAA3D6"/>
-<text x="848" y="242" font-size="16" font-weight="600">Lavender</text>
-<text x="848" y="264" font-family="ui-monospace, monospace" font-size="13" fill="#9FADB3">#AAA3D6</text>
-<text x="32" y="318" font-size="14" fill="#9FADB3">Shore</text>
-<rect x="32" y="334" width="101.333" height="48" fill="#18242F"/>
-<rect x="133.333" y="334" width="101.333" height="48" fill="#2A3A46"/>
-<rect x="234.667" y="334" width="101.333" height="48" fill="#4E5C68"/>
-<text x="352" y="318" font-size="14" fill="#9FADB3">Driftwood</text>
-<rect x="352" y="334" width="101.333" height="48" fill="#C1CCD3"/>
-<rect x="453.333" y="334" width="101.333" height="48" fill="#9FADB3"/>
-<rect x="554.667" y="334" width="101.333" height="48" fill="#87959C"/>
-<text x="672" y="318" font-size="14" fill="#9FADB3">Horizon</text>
-<rect x="672" y="334" width="76" height="48" fill="#B2BFDB"/>
-<rect x="748" y="334" width="76" height="48" fill="#8194BA"/>
-<rect x="824" y="334" width="76" height="48" fill="#496594"/>
-<rect x="900" y="334" width="76" height="48" fill="#31466C"/>
+<text x="32" y="49" font-size="28" font-weight="600" fill="#C1CCD3">Evening</text>
+<text x="32" y="98" font-size="16" font-weight="600" fill="#C1CCD3">Core colors</text>
+<rect x="32" y="118" width="227" height="174" fill="#B2BFDB"/>
+<text x="32" y="316" font-size="16" font-weight="600" fill="#C1CCD3">Horizon</text>
+<text x="32" y="338" font-size="13" font-weight="400" fill="#9FADB3" font-family="ui-monospace, monospace">#B2BFDB</text>
+<rect x="271" y="118" width="227" height="174" fill="#8194BA"/>
+<text x="271" y="316" font-size="16" font-weight="600" fill="#C1CCD3">Inlet</text>
+<text x="271" y="338" font-size="13" font-weight="400" fill="#9FADB3" font-family="ui-monospace, monospace">#8194BA</text>
+<rect x="510" y="118" width="227" height="174" fill="#496594"/>
+<text x="510" y="316" font-size="16" font-weight="600" fill="#C1CCD3">Deception Pass</text>
+<text x="510" y="338" font-size="13" font-weight="400" fill="#9FADB3" font-family="ui-monospace, monospace">#496594</text>
+<rect x="749" y="118" width="227" height="174" fill="#31466C"/>
+<text x="749" y="316" font-size="16" font-weight="600" fill="#C1CCD3">Deep Water</text>
+<text x="749" y="338" font-size="13" font-weight="400" fill="#9FADB3" font-family="ui-monospace, monospace">#31466C</text>
+<text x="32" y="390" font-size="16" font-weight="600" fill="#C1CCD3">Foreground</text>
+<rect x="32" y="410" width="144" height="72" fill="#C1CCD3"/>
+<text x="32" y="506" font-size="16" font-weight="600" fill="#C1CCD3">Shell</text>
+<text x="32" y="528" font-size="13" font-weight="400" fill="#9FADB3" font-family="ui-monospace, monospace">#C1CCD3</text>
+<rect x="188" y="410" width="144" height="72" fill="#9FADB3"/>
+<text x="188" y="506" font-size="16" font-weight="600" fill="#C1CCD3">Mist</text>
+<text x="188" y="528" font-size="13" font-weight="400" fill="#9FADB3" font-family="ui-monospace, monospace">#9FADB3</text>
+<rect x="344" y="410" width="144" height="72" fill="#87959C"/>
+<text x="344" y="506" font-size="16" font-weight="600" fill="#C1CCD3">Pebble</text>
+<text x="344" y="528" font-size="13" font-weight="400" fill="#9FADB3" font-family="ui-monospace, monospace">#87959C</text>
+<text x="520" y="390" font-size="16" font-weight="600" fill="#C1CCD3">Background</text>
+<rect x="520" y="410" width="144" height="72" fill="#4E5C68"/>
+<text x="520" y="506" font-size="16" font-weight="600" fill="#C1CCD3">Shore</text>
+<text x="520" y="528" font-size="13" font-weight="400" fill="#9FADB3" font-family="ui-monospace, monospace">#4E5C68</text>
+<rect x="676" y="410" width="144" height="72" fill="#2A3A46"/>
+<text x="676" y="506" font-size="16" font-weight="600" fill="#C1CCD3">Driftwood</text>
+<text x="676" y="528" font-size="13" font-weight="400" fill="#9FADB3" font-family="ui-monospace, monospace">#2A3A46</text>
+<rect x="832" y="410" width="144" height="72" fill="#18242F"/>
+<text x="832" y="506" font-size="16" font-weight="600" fill="#C1CCD3">Slate</text>
+<text x="832" y="528" font-size="13" font-weight="400" fill="#9FADB3" font-family="ui-monospace, monospace">#18242F</text>
+<text x="32" y="589" font-size="16" font-weight="600" fill="#C1CCD3">Semantic colors</text>
+<rect x="32" y="609" width="124.571" height="60" fill="#E98C84"/>
+<text x="32" y="693" font-size="16" font-weight="600" fill="#C1CCD3">Madrona</text>
+<text x="32" y="715" font-size="13" font-weight="400" fill="#9FADB3" font-family="ui-monospace, monospace">#E98C84</text>
+<rect x="168.571" y="609" width="124.571" height="60" fill="#D79C52"/>
+<text x="168.571" y="693" font-size="16" font-weight="600" fill="#C1CCD3">Copper</text>
+<text x="168.571" y="715" font-size="13" font-weight="400" fill="#9FADB3" font-family="ui-monospace, monospace">#D79C52</text>
+<rect x="305.143" y="609" width="124.571" height="60" fill="#D1BD88"/>
+<text x="305.143" y="693" font-size="16" font-weight="600" fill="#C1CCD3">Sand</text>
+<text x="305.143" y="715" font-size="13" font-weight="400" fill="#9FADB3" font-family="ui-monospace, monospace">#D1BD88</text>
+<rect x="441.714" y="609" width="124.571" height="60" fill="#90B18E"/>
+<text x="441.714" y="693" font-size="16" font-weight="600" fill="#C1CCD3">Hemlock</text>
+<text x="441.714" y="715" font-size="13" font-weight="400" fill="#9FADB3" font-family="ui-monospace, monospace">#90B18E</text>
+<rect x="578.286" y="609" width="124.571" height="60" fill="#8BB2E4"/>
+<text x="578.286" y="693" font-size="16" font-weight="600" fill="#C1CCD3">Sound</text>
+<text x="578.286" y="715" font-size="13" font-weight="400" fill="#9FADB3" font-family="ui-monospace, monospace">#8BB2E4</text>
+<rect x="714.857" y="609" width="124.571" height="60" fill="#72B1BF"/>
+<text x="714.857" y="693" font-size="16" font-weight="600" fill="#C1CCD3">Tidepool</text>
+<text x="714.857" y="715" font-size="13" font-weight="400" fill="#9FADB3" font-family="ui-monospace, monospace">#72B1BF</text>
+<rect x="851.429" y="609" width="124.571" height="60" fill="#AAA3D6"/>
+<text x="851.429" y="693" font-size="16" font-weight="600" fill="#C1CCD3">Lavender</text>
+<text x="851.429" y="715" font-size="13" font-weight="400" fill="#9FADB3" font-family="ui-monospace, monospace">#AAA3D6</text>
 </g>
 </svg>

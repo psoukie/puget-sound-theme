@@ -88,4 +88,11 @@ Start with validation rather than a universal theme generator. Generate ports on
 3. Add reproducible preview generation and synchronization checks.
 4. Add CI and a contribution guide if the project begins accepting outside contributions.
 
-The naming vocabulary is **Madrona, Copper, Sand, Fern, Sound, Tidepool, Lavender**, supported by **Shore, Driftwood, and Horizon**.
+Presentation is organized into **Core colors**, **Foreground**, **Background**, and **Semantic colors**, in that order. Individual swatches carry coastal names:
+
+- Core colors: **Horizon, Inlet, Deception Pass, Deep Water**, ordered from lightest to darkest within each variant.
+- Foreground and background: descriptors follow the neutral lightness sequence within each variant; implementation tokens remain numbered (`fg-0`–`fg-2` and `bg-0`–`bg-2`).
+- Background: **Shell, Mist, Shore**.
+- Semantic colors: **Madrona, Copper, Sand, Hemlock, Sound, Tidepool, Lavender**.
+
+Names are presentation descriptors rather than palette-driving identifiers. The shared JSON uses numbered role-based groups: `core`, `foreground`, `background`, and `semantic`; the display-name mappings currently live in `scripts/render-palettes.py`, which regenerates both SVG previews from the shared palette values.
