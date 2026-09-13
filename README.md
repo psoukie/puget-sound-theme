@@ -13,9 +13,9 @@ Two expressions of the same colors: **Morning** and **Evening**.
 
 <br>
 
-![Puget Sound Morning: primary blues, foreground, background, and accents](assets/morning-palette.svg)
+<img src="assets/morning-palette.svg" alt="Puget Sound Morning: primary blues, foreground, background, and accents" width="100%">
 
-![Puget Sound Evening: primary blues, foreground, background, and accents](assets/evening-palette.svg)
+<img src="assets/evening-palette.svg" alt="Puget Sound Evening: primary blues, foreground, background, and accents" width="100%">
 
 ## A familiar place, in different light
 
@@ -83,6 +83,7 @@ Both variants are included for each application. The theme files are plain confi
 | **Helix** | [Port guide](ports/helix/README.md) · [Morning](ports/helix/puget_sound_morning.toml) · [Evening](ports/helix/puget_sound_evening.toml) |
 | **Pi** | [Port guide](ports/pi/README.md) · [Morning](ports/pi/puget-sound-morning.json) · [Evening](ports/pi/puget-sound-evening.json) |
 | **WezTerm** | [Port guide](ports/wezterm/README.md) · [Both schemes](ports/wezterm/puget_sound_theme.lua) |
+| **VS Code** | [Port guide](ports/vscode/README.md) · [Settings customization](ports/vscode/puget-sound-settings.jsonc) |
 
 Installation and application-specific details live in each [port guide](#applications).
 ## Design
